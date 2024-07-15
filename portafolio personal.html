@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog Personal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/bp.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Blog Personal</h1>
+    </header>
+    <nav>
+        <a href="#home">Inicio</a>
+        <a href="#about">Sobre Mí</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="home" class="post">
+            <h2>Bienvenidos a Mi Blog</h2>
+            <img src="ima/autos-deportivos.jpg" alt="Imagen de bienvenida">
+            <h1>¡Hola! Bienvenidos a mi blog personal. </h1>
+        </section>
+        <section id="about" class="post">
+            <h2>Sobre Mí</h2>
+            <img src="ima/03f26c3a-ebf6-4a73-9a54-dba57b298f09.jpg" alt="Imagen sobre mí">
+            <p>Me llamo Stalin Alvino Machahuay, tengo 18 años y soy un estudiante de "Desarrollo de sistemas de informacion", ahora mismo me encuentro en 3 ciclo en "IESTP MISIONEROS MONFORTIANOS" y aqui mostrare cualquier cosa que haga  y todo los conocimientos aprendidos ponerlos en practica en cualquier lado que vaya.</p>
+        </section>
+        <section id="blog" class="post">
+            <h2>ULTIMAS ENTRADAS</h2>
+            <div class="blog-post">
+                <h3>MI CURRICULUM VITAE:</h3>
+                <p class="meta">Publicado el 25 de junio de 2024</p>
+                <p>En este momento te presentare mi ultima entrada que fue mi cv,
+                    tiene toda mi informacion y habilidades en experiencias de trabajo y habilidad.
+                </p>
+                <a href="CV .html" class="button">Leer Más</a>
+                <hr>
+            </div>
+            <section id="acerca">
+            <div class="blog-post">
+                <h3>DATOS PERSONALES</h3>
+                <p class="meta">Publicado el 10 de julio de 2024</p>
+                <p>Podemos observar los ejercicios que hise alo largo de mi estudios</p>
+                <a href="ejercicio05.html" class="button">Leer Más</a>
+            </div>    
+        </section>   
+        
+        
+            <article>
+                <h3>Pequeña seccion de Fotografías y demostracion de lo que me gusta que es mi aficion a los auros deportivos y deportes que me gusta como el voleyball y el ajedrez.</h3>
+                <img src="ima/autos-deportivos-2-800x533.jpg" alt="Imagen de fotografía">
+                <img src="ima/motos-deportivas.jpg" alt="Imagen de fotografía">
+                <img src="ima/voleyball-vnl.jpg" alt="Imagen de fotografía">
+                <img src="ima/ajedrez.jpg" alt="Imagen de fotografía">
+                <p>Mi aficion a los carros y motos me surgio desde pequeño y hoy en dia me gusta practicar el deporte del voleyball y el ajedrez.</p>
+                <hr>
+                <h2>CONTACTO</h2>
+                <section id="contact" class="post">       
+                <p>Puedes Contactarnos a traves de esto:</p>
+                <form action="enviar.php" method="post">
+                    <input type="text" name="nombre" placeholder="Tu nombre" required>
+                    <input type="emai" name="emai" placeholder="Tu correo Electronico" required>
+                    <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+                    <button><a href="https://accounts.google.com/SignOutOptions?hl=es-419&continue=https://mail.google.com/mail/&service=mail&ec=GBRAFw">Enviar Mensaje</a></button>
+                </section> 
+                <hr>
+            </article>
+        
+    </div>
+    <footer>
+        <p>&copy; 2024 Mi Blog Personal. Stalin Alvino Machahuay.</p>
+    </footer>
+</body>
+</html>
